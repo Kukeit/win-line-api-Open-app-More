@@ -1,5 +1,6 @@
 <?php
-
+	echo "Hello";
+/*
 include ('line-bot.php');
 
 $channelSecret = 'b252de3ae956da991dcad579fcc38e5a';
@@ -16,5 +17,6 @@ if ($bot->isSuccess()) {
 // Failed
 echo $bot->response->getHTTPStatus . ' ' . $bot->response->getRawBody(); 
 exit();
+*/
 
 ?>
